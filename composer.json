@@ -1,0 +1,23 @@
+{
+    "name": "iammordaty/guzzlehttp-factory",
+    "description": "Guzzle 6.x factory",
+    "keywords": [ "guzzlehttp", "guzzle", "http", "handlerstack", "guzzle-factory", "guzzle handler", "factory", "library" ],
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "iammordaty",
+            "email": "iammordaty@users.noreply.github.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0",
+        "ext-json": "*",
+        "guzzlehttp/guzzle": ">=6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Iammordaty\\GuzzleHttp\\": "src"
+        }
+    }
+}
